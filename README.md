@@ -34,15 +34,17 @@ This analysis can support:
 
 ---
 
-## 🏗️ Data Model
+## 🗂️ Data Model
 
-The dashboard is based on a relational data structure consisting of three core datasets:
+Physical joins connecting the core flights table to airport and airline reference tables:
 
-- **Flights Table** → flight-level operational metrics  
-- **Airlines Table** → airline identifiers and metadata  
-- **Airports Table** → airport location and classification data
+```
+flights_light.csv ──► Origin_airports.csv
+                  ──► Destination_airports.csv
+                  ──► airlines.csv
+```
 
-These datasets are joined to enable multi-dimensional analysis across time, geography, and airline performance.
+The airports table is joined twice using the aliases `Origin_airports` and `Destination_airports`, enabling separate analysis of origin and destination airports within a single data model.
 
 ---
 
