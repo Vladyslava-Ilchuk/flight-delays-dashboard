@@ -1,6 +1,11 @@
 # flight-delays-dashboard
 # 📊 Flight Delays & Cancellations Dashboard (Tableau)
 
+---
+## 📎 Tableau Public Dashboard
+🔗 **[View on Tableau Public](https://public.tableau.com/views/Project_Ilchuk/CancellationDelay?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+
+
 ## 📌 Overview
 
 This project presents an interactive **Tableau dashboard** designed to analyze and visualize flight delays and cancellations across the United States.  
@@ -64,13 +69,6 @@ The Tableau dashboard includes the following interactive components:
 - Relational data modeling  
 - Interactive dashboard development  
 - KPI analysis and reporting  
-
----
-
-## 📎 Tableau Public Dashboard
-
-## Flight Delays & Cancellations Dashboard  
-https://public.tableau.com/views/Project_Ilchuk/CancellationDelay?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ---
 
